@@ -1,0 +1,19 @@
+{
+  "name": "sharedon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rinsuki",
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "^0.28.7",
+    "pug": "^2.0.0-rc.4",
+    "riot": "^3.7.4",
+    "riot-tag-loader": "^1.0.0",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1"
+  }
+}

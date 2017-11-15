@@ -11,6 +11,8 @@ app
         .panel#share_content
             span 共有する内容: 
             textarea(readonly) {this.text}
+        .right
+            a(href="https://github.com/rinsuki/sharedon",style="color:#9baec8") ShareDonのソースコード
     style.
         .container {
             max-width: 640px;
@@ -60,6 +62,9 @@ app
         #share_content > *{
             display: block;
             padding: 0.5em;
+        }
+        .right {
+            text-align: right;
         }
     script.
         this.default_domains = [
